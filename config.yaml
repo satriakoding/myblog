@@ -1,0 +1,10 @@
+baseURL : '/'
+languageCode : id-ID
+title : My personal blog
+
+permalinks:
+    page: /:slug
+    blog: /:slug
+    quote: /:slug
+
+
