@@ -2,6 +2,10 @@
 title: "Artikel2"
 date: 2022-02-01T13:34:37Z
 draft: false
+cover:
+    title: coder
+    image: img/coder2.jpg
+author: M.Surur
 ---
 
 **Ini artikel pertama**
@@ -13,3 +17,5 @@ m veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
 tate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
  occaecat cupidatat non proident, sunt in culpa qui officia deserunt m
 ollit anim id est laborum."
+
+![coder](/img/coder2.jpg)

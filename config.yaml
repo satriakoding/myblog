@@ -2,6 +2,12 @@ baseURL : '/'
 languageCode : id-ID
 title : My personal blog
 
+# this isrequired so that Hugo will render markdown to HTML
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 permalinks:
     page: /:slug
     blog: /:slug
