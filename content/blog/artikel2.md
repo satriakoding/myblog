@@ -8,7 +8,7 @@ cover:
 author: M.Surur
 ---
 
-**Ini artikel pertama**
+**Ini artikel kedua**
 
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm
 od tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini
