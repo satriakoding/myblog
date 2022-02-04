@@ -11,9 +11,9 @@
                  <div class="card-body">
                   <a href="{{ .Permalink }}" class="card-title fs-3 fw-500">{{ .Title }}</a>
                   <p class="card-text">{{ or .Description .Summary }}</p>
-                  <p class="card-text">
-                    <small class="timepost"><object data="/svg/user-circle.svg" width="20" height="20"> {{ .Params.author }} </object>
-                   <object data="/svg/calendar.svg" width="20" height="20"> </object> {{ .Date.Format "Jan 02, 2006" }}</small>
+                  <p class="card-text" style="color: #BFBFBF;">
+                   <small><img src="/svg/user-circle.svg" width="16" height="16"> {{ .Params.author }} &nbsp;
+                  <img src="/svg/calendar.svg" width="16" height="16"> {{ .Date | time.Format ":date_long" }}</small>
                   </p>
                 </div>
             </div>
