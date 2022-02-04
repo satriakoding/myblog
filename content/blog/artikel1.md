@@ -5,7 +5,7 @@ draft: false
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 cover:
     title: banner
-    image: img/banner2.jpg
+    image: "/img/banner2.jpg"
 author: M.Surur
 ---
 

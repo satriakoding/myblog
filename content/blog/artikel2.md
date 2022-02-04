@@ -4,7 +4,7 @@ date: 2022-02-01T13:34:37Z
 draft: false
 cover:
     title: coder
-    image: img/coder2.jpg
+    image: "/img/coder2.jpg"
 author: M.Surur
 ---
 
