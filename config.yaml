@@ -12,5 +12,5 @@ markup:
 permalinks:
     page: /:slug
     blog: /:slug
-
+    private: /:slug
 
