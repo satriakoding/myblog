@@ -1,7 +1,7 @@
 baseURL: '/'
 languageCode: id-ID
 title: My personal blog
-summaryLength: 7
+summaryLength: 10
 
 # this isrequired so that Hugo will render markdown to HTML
 markup:
