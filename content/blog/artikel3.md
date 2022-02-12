@@ -7,7 +7,9 @@ tags:
 cover:
     title: banner
     image: "/img/coder1.jpg"
-author: M.Surur 
+author: Surur 
+url: artikel-tiga
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 <img src="/img/coder1.jpg" class="img-fluid rounded" alt="coder">
 

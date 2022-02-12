@@ -5,7 +5,7 @@ draft: false
 cover:
     title: coder
     image: "/img/coder2.jpg"
-author: M.Surur
+author: Surur
 ---
 
 **Ini artikel kedua**
@@ -18,4 +18,8 @@ tate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
  occaecat cupidatat non proident, sunt in culpa qui officia deserunt m
 ollit anim id est laborum."
 
-![coder](/img/coder2.jpg)
+<div class="text-center">
+<figure>
+ <img src="/img/coder1.jpg" class="img-fluid rounded" alt="coder">
+<figcaption>A single track trail outside of Albuquerque.</figcaption></figure>
+</div>

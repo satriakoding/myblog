@@ -6,7 +6,7 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 cover:
     title: banner
     image: "/img/banner2.jpg"
-author: M.Surur
+author: Surur
 ---
 
 <img src="/img/coder3.jpg" class="img-fluid rounded" alt="coder">
