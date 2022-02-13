@@ -11,7 +11,7 @@
                 <div class="card-body">
                   <a href="{{ .Permalink }}" class="card-title fs-4 fw-600 text-success text-decoration-none">{{ .Title }}</a>
                   <p class="card-text">{{ or .Description .Summary }}</p>
-                  <small class="card-text text-muted"> <i class="bi bi-person-circle"></i> {{ .Params.author }} &nbsp;  <i class="bi bi-calendar2-heart"></i> {{ .Date.Format "Jan 02, 2006" }}
+                  <small class="card-text text-muted"> <i class="bi bi-person-circle"></i>&nbsp; {{ .Params.author }} &nbsp;  <i class="bi bi-calendar2-heart"></i>&nbsp; {{ .Lastmod.Format "Jan 02, 2006" }}
                   </small>
                 </div>
 

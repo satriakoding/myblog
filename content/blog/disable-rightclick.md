@@ -7,6 +7,7 @@ tags:
 cover:
     title: disable right-click
     image: "/img/post/disable-image.jpg"
+    sourceImage: Noviyanita on Freepik.com
 author: Surur
 url:
 description: Dalam kondisi tertentu, adakalanya kita ingin melindungi konten atau asset (foto) yang ada didalam website kita, entah alasan privacy, pembajakan, ataupun lainnya. Dan salah satu cara paling umum yaitu...
@@ -35,6 +36,15 @@ Tambahkan syntak javascript berikut kedalam tag \<head> atau sebelum tag penutup
   }, false);
 </script>
 ```
+{{< highlight javascript >}}
+<script type="text/javascript">
+  document.addEventListener("contextmenu", function(e){
+    if (e.target.nodeName === "IMG") {
+        e.preventDefault();
+    }
+  }, false);
+</script>
+{{< / highlight >}}
 
 **Conclusion**<br>
 > _"No system is safe"_
@@ -43,4 +53,5 @@ Kita semua tahu, tidak ada yang benar² aman didunia internet. Cara diatas tidak
 #SalamPersaudaraan
 
 > **Reference**<br>
-https://stackoverflow.com/questions/737022/how-do-i-disable-right-click-on-my-web-page
+<small>https://stackoverflow.com/questions/737022/how-do-i-disable-right-click-on-my-web-page</small>
+
