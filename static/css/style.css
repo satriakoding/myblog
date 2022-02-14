@@ -1,16 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand:wght@500&family=Raleway&family=Sacramento&display=swap');
+
 body {
-  @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Quicksand:wght@500&display=swap');
-  font-family: 'Comfortaa', Quicksand, sans-serif;
+  font-family: 'Open Sans', Quicksand, sans-serif;
+  font-size: 14px;
 }
+
+.navbar-brand {
+  font-family: 'Sacramento', cursive;
+}
+
+.nav-link {
+  font-family: 'Quicksand', sans-serif;
+}
+
 mark {
-   background: #54BAB9;
-   color: #fff;
-   border-radius: 5px;
+   background: #D9EDF7;
+   color: #143250;
+   border: 1px solid #BCE8F1;
+   border-radius: 4px;
    padding: 1px 3px;
-}
-``` {
-   border-radius: 5px;
-   padding: 1px 2px;
+   font-style: italic;
+   font-size: small;
 }
 
 .navbar-toggler {
