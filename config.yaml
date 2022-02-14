@@ -14,6 +14,10 @@ permalinks:
     blog: /:slug
     private: /:slug
 
+taxonomies:
+  category: categories
+  tag: tags
+
 # for automation get date
 enableGitInfo : true
 
@@ -63,3 +67,5 @@ minify:
       precision: 0
     xml:
       keepWhitespace: false
+
+enableEmoji: true

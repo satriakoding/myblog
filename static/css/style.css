@@ -23,6 +23,16 @@ mark {
    font-size: small;
 }
 
+.tags {
+   background: #D9EDF7;
+   color: #143250;
+   border: 1px solid #BCE8F1;
+   border-radius: 4px;
+   padding: 1px 3px;
+   font-size: small;
+}
+
+/* <--- NAVBAR BEGIN ---> */
 .navbar-toggler {
     width: 20px;
     height: 20px;
@@ -107,3 +117,5 @@ mark {
     top: 20px;
     transform: rotate(0deg);
 }
+
+/* <--- NAVBAR END ---> */

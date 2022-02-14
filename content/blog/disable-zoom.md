@@ -2,8 +2,12 @@
 title: "Disable Zoom Out"
 date: 2022-02-14T10:34:46Z
 draft: false
-categories: 
+categories:
+  - tips
+  - problem solving
 tags:
+  - meta
+  - web development
 cover:
     title: disable zoom
     image: "/img/post/disable-zoom-out.jpg"
@@ -25,8 +29,8 @@ Silahkan tambahkan tag meta berikut kedalam tag <mark>\<head></mark>
 ```
 
 **Conclusion**<br>
-Beberapa sumber mengatakan bahwa menonaktifkan zoom out pada halamn website bukanlah hal yang direkomendasikan, karena bisa saja hal tersebuy justru mengganggu para pembaca, seperti font size terlalu kecil misalnya. Hal tersebut juga berdampak bagi pengguna yang mengakses dengan ponsel yg berukuran kecil, orang dengan penglihatan minus, atau orang tua yang daya penglihatannya sudah menurun.
+Beberapa sumber mengatakan bahwa menonaktifkan zoom out pada halaman website bukanlah hal yang direkomendasikan, karena bisa saja hal tersebut justru mengganggu para pembaca, seperti font size terlalu kecil misalnya. Hal tersebut juga berdampak bagi pengguna yang mengakses dengan ponsel yg berukuran kecil, orang dengan penglihatan minus, atau orang tua yang daya penglihatannya sudah menurun.
 
-So, apapun itu semua kembali ke Anda sebagai pemilik website. Saya pribadi juga lebih suka menonaktifkan zoom out pada web saya. Hehe
+So, apapun itu semua kembali ke Anda sebagai pemilik website. Saya pribadi sih juga lebih suka menonaktifkan zoom out pada web saya. Hehe 😁
 
 #SalamJejak

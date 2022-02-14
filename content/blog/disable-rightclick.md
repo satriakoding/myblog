@@ -2,14 +2,19 @@
 title: "Disable Rightclick Image"
 date: 2022-02-12T13:38:40Z
 draft: false
-categories: 
+categories:
+    - tips
+    - problem solving
 tags:
+    - web development
 cover:
     title: disable right-click
     image: "/img/post/disable-image.jpg"
     sourceImage: Noviyanita on Freepik.com
 author: Surur
-url:
+url: disable-right-click
+aliases:
+    - cara-menonaktifkan-klik-kanan
 description: Dalam kondisi tertentu, adakalanya kita ingin melindungi konten atau asset (foto) yang ada didalam website kita, entah alasan privacy, pembajakan, ataupun lainnya. Dan salah satu cara paling umum yaitu . . .
 ---
 
