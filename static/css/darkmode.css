@@ -1,0 +1,18 @@
+:root {
+    --dark-mode-dark: #345;
+    --dark-mode-light: #f0f8ff;
+}
+
+[data-theme="dark"] .main {
+    background-color: var(--dark-mode-dark) !important;
+    color: var(--dark-mode-light) !important;
+}
+
+/* Add this class to images you want to invert! */
+[data-theme="dark"] .invertable {
+    filter: invert(1);
+}
+
+#darkSwitch {
+    position: relative;
+}

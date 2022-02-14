@@ -1,3 +1,18 @@
+body {
+  @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Quicksand:wght@500&display=swap');
+  font-family: 'Comfortaa', Quicksand, sans-serif;
+}
+mark {
+   background: #54BAB9;
+   color: #fff;
+   border-radius: 5px;
+   padding: 1px 3px;
+}
+``` {
+   border-radius: 5px;
+   padding: 1px 2px;
+}
+
 .navbar-toggler {
     width: 20px;
     height: 20px;
