@@ -20,11 +20,18 @@ body {
 footer {
    background: #23384E;
    color: #fff;
-   padding-bottom: 8px;
-   font-size: small;
+   margin-top: -12px;
+   padding-bottom: 12px;
+   font-size: lighter;
    text-align: center;
    font-family: 'Redressed', cursive;
    font-weight: 200;
+}
+footer > a {
+   color: #FFA1C9;
+}
+footer > a:hover {
+   color: yellow;
 }
 img {
   loading: lazy;
@@ -52,17 +59,16 @@ mark {
 /* <--- NAVBAR BEGIN ---> */
 .navbar {
   background: #23384E;
-  font-weight: 600;
 }
 
 .navbar-brand {
   font-family: 'Sacramento', cursive;
-  font-weight: normal;
 }
 
 .nav-link {
   font-family: 'Quicksand', sans-serif;
   text-indent: 2px;
+  font-weight: 500;
 }
 
 .navbar-toggler {
