@@ -10,6 +10,7 @@ cover:
     title: 
     image: 
     sourceImage:
+    placeholder: /img/placeholder.jpg
 author: Surur
 url:
 aliases:
