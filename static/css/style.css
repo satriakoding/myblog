@@ -19,7 +19,13 @@ body {
   font-family: 'OpenSans', Quicksand, sans-serif;
   font-size: 14px;
   font-weight: 400;
+  text-align: justify;
 }
+
+article {
+  text-align: justify;
+}
+
 footer {
    background: #23384E;
    color: #fff;
