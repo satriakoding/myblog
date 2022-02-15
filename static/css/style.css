@@ -1,10 +1,4 @@
 /* Font Face */
-@font-face {                                                      font-family: "bootstrap-icons";
-  src: url("/fonts/bootstrap-icons.woff2") format("woff2"),
-       url("/fonts/bootstrap-icons.woff") format("woff");
-  font-display: swap;
-}
-
 @font-face {
   font-family: Sacramento;
   src: url(/fonts/Sacramento-Regular.ttf);
@@ -76,8 +70,8 @@ mark {
 
 .nav-link {
   font-family: 'Quicksand', sans-serif;
-  text-indent: 2px;
-  font-weight: 500;
+  text-indent: 4px;
+  font-weight: 600;
 }
 
 .navbar-toggler {
@@ -142,7 +136,6 @@ mark {
     top: inherit;
     transform: rotate(-135deg);
 }
-
 
 /* State when the navbar is collapsed */
 

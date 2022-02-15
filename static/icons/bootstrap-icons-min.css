@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "bootstrap-icons";
+  src: url("/fonts/bootstrap-icons.woff2") format("woff2"),
+       url("/fonts/bootstrap-icons.woff") format("woff");
+  font-display: swap;
+}
+
+.bi::before,
+[class^="bi-"]::before,
+[class*=" bi-"]::before {
+  display: inline-block;
+  font-family: bootstrap-icons !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -.125em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bi-arrow-right::before { content: "\f138"; }
+.bi-chat-square-quote::before { content: "\f262"; }
+.bi-emoji-heart-eyes::before { content: "\f31f"; }
+.bi-globe::before { content: "\f3ee"; }
+.bi-person-circle::before { content: "\f4d7"; }
+.bi-shield-check::before { content: "\f52f"; }
+.bi-calendar-heart::before { content: "\f710"; }
+.bi-house-heart-fill::before { content: "\f775"; }
