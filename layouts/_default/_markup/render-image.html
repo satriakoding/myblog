@@ -1,0 +1,9 @@
+<img 
+    class='lazyload mb-3 img-fluid'
+    data-sizes="auto"
+    src="/svg/placeholder.svg"
+    data-src='{{ .Destination | safeURL }}'
+    alt='{{ .Text }}'
+    {{ with .Title}} title="{{ . }}"{{ end }}
+    loading='lazy'
+/>

@@ -1,8 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand:wght@500&family=Raleway&family=Sacramento&family=Redressed&display=swap');
+/* Font Face */
+@font-face {
+  font-family: Sacramento;
+  src: url(/fonts/Sacramento-Regular.ttf);
+}
+@font-face {
+  font-family: Quicksand;
+  src: url(/fonts/Quicksand_Book.otf);
+}
+@font-face {
+  font-family: OpenSans;
+  src: url(/fonts/OpenSans-Regular.ttf);
+}
 
 body {
-  font-family: 'Open Sans', Quicksand, sans-serif;
+  font-family: 'OpenSans', Quicksand, sans-serif;
   font-size: 14px;
+  font-weight: 400;
 }
 footer {
    background: #23384E;
@@ -13,6 +26,10 @@ footer {
    font-family: 'Redressed', cursive;
    font-weight: 200;
 }
+img {
+  loading: lazy;
+}
+
 mark {
    background: #D9EDF7;
    color: #143250;
@@ -35,6 +52,7 @@ mark {
 /* <--- NAVBAR BEGIN ---> */
 .navbar {
   background: #23384E;
+  font-weight: 600;
 }
 
 .navbar-brand {
