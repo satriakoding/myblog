@@ -57,6 +57,7 @@ mark {
 
 .navbar-brand {
   font-family: 'Sacramento', cursive;
+  font-weight: normal;
 }
 
 .nav-link {
