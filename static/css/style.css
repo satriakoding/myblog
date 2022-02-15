@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand:wght@500&family=Raleway&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand:wght@500&family=Raleway&family=Sacramento&family=Redressed&display=swap');
 
 body {
   font-family: 'Open Sans', Quicksand, sans-serif;
   font-size: 14px;
 }
-
-.navbar-brand {
-  font-family: 'Sacramento', cursive;
+footer {
+   background: #23384E;
+   color: #fff;
+   padding-bottom: 8px;
+   font-size: small;
+   text-align: center;
+   font-family: 'Redressed', cursive;
+   font-weight: 200;
 }
-
-.nav-link {
-  font-family: 'Quicksand', sans-serif;
-}
-
 mark {
    background: #D9EDF7;
    color: #143250;
@@ -33,6 +33,19 @@ mark {
 }
 
 /* <--- NAVBAR BEGIN ---> */
+.navbar {
+  background: #23384E;
+}
+
+.navbar-brand {
+  font-family: 'Sacramento', cursive;
+}
+
+.nav-link {
+  font-family: 'Quicksand', sans-serif;
+  text-indent: 2px;
+}
+
 .navbar-toggler {
     width: 20px;
     height: 20px;
