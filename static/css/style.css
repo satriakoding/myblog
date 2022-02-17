@@ -1,6 +1,6 @@
 body {
   font-family: 'OpenSans', Quicksand, sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 500;
   text-align: justify;
 }
@@ -55,15 +55,15 @@ mark {
 /* <--- NAVBAR BEGIN ---> */
 nav.navbar {
   background: #23384E;
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-padding: 2px;
+  border-bottom: 3px solid #02CBBE;
+  padding: 2px;
 }
 
 .navbar-brand {
   font-family: 'UrbanJungle', Brightness, Sacramento, cursive;
-  color: #02CBBE;
   letter-spacing: 2.5px;
-  font-size: 24px;
+  font-size: 23px;
+  font-weight: normal;
 }
 .navbar-brand:hover {
   font-family: 'BrightnessBook', UrbanJungle, Sacramento, cursive;
@@ -81,7 +81,7 @@ padding: 2px;
 
 .nav-link {
   font-family: 'Quicksand', sans-serif;
-  text-indent: 6px;
+  text-indent: 2px;
   font-weight: 600;
   color: #02CBBE;
 }
@@ -125,7 +125,8 @@ padding: 2px;
     position: absolute;
     height: 2px;
     width: 100%;
-    background: linear-gradient( 263deg, rgba(252,74,74,1) 0%, rgba(0,212,255,1) 100% );
+/*    background: linear-gradient( 263deg, rgba(252,74,74,1) 0%, rgba(0,212,255,1) 100% ); */
+    background: linear-gradient( to bottom, #02CBBE, #fff);
     border-radius: 1px;
     opacity: 1;
     left: 0;
