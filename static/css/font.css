@@ -1,0 +1,56 @@
+/* FONT FACE */
+@font-face {
+  font-family: Garlic;
+  src: url(/fonts/Garlic.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: OriginTech;
+  src: url(/fonts/OriginTech.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: FakeHope;
+  src: url(/fonts/FakeHope.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: Sacramento;
+  src: url(/fonts/Sacramento-Regular.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: Quicksand;
+  src: url(/fonts/Quicksand_Book.otf);
+  font-display: swap;
+}
+@font-face {
+  font-family: OpenSans;
+  src: url(/fonts/OpenSans-Regular.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: Brightness;
+  src: url(/fonts/Brightness.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: BrightnessBook;
+  src: url(/fonts/BrightnessBook.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: BrightnessInverted;
+  src: url(/fonts/BrightnessInverted.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: Misa;
+  src: url(/fonts/Misa.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: UrbanJungle;
+  src: url(/fonts/UrbanJungle.otf);
+  font-display: swap;
+}

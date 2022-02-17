@@ -1,60 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<nav class="navbar sticky-top navbar-expand-lg">
+<div class="container">
+    <a class="navbar-brand" href="/">
+     <img src="/avatar/owl.png" alt="jejak" class="d-inline-block"><span class="align-text-top"> Jejak Digital</span></a>
+    <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="toggler-icon top-bar"></span>
+      <span class="toggler-icon middle-bar"></span>
+      <span class="toggler-icon bottom-bar"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">
+          <i class="bi-house-heart-fill"></i> Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/blog">
+          <i class="bi bi-globe"></i> Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/quote">
+          <i class="bi bi-chat-square-quote"></i> Quote</a>
+        </li>
 
-        <!-- ===== CSS ===== -->
-        <link rel="stylesheet" href="/css/navbar.css">
+        <li class="nav-item">
+          <a class="nav-link" href="/private">
+          <i class="bi bi-shield-check"></i> Privacy</a>
+        </li>
 
-        <title>{{.Title}}</title>
-    </head>
-    <body>
-        <header class="header">
-            <a href="/" class="header__logo">M.Surur</a>
-
-            <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
-
-            <nav class="nav" id="nav-menu">
-                <div class="nav__content bd-grid">
-
-                    <ion-icon name="close-outline" class="nav__close" id="nav-close"></ion-icon>
-    
-                    <div class="nav__perfil">
-                        <div class="nav__img">
-                            <img src="/avatar/hacker.png" alt="">
-                        </div>
-                        
-                        <div>
-                            <a href="/" class="nav__name">M.Surur</a>
-                            <span class="nav__profesion">Freelancer</span>
-                        </div>
-                    </div>
-    
-                    <div class="nav__menu">
-                        <ul class="nav__list">
-                            <li class="nav__item"><a href="/" class="nav__link active">Home</a></li>
-                            <li class="nav__item"><a href="/about" class="nav__link">About</a></li>
-                            <li class="nav__item"><a href="/blog" class="nav__link">Blog</a></li>
-                            <li class="nav__item"><a href="/quote" class="nav__link">Quote</a></li>
-                            <li class="nav__item"><a href="/contact" class="nav__link">Contact</a></li>
-                        </ul>
-                    </div>
-    
-                    <div class="nav__social">
-                        <a href="#" class="nav__social-icon"><ion-icon name="logo-linkedin"></ion-icon></a>
-                        <a href="#" class="nav__social-icon"><ion-icon name="logo-github"></ion-icon></a>
-                        <a href="#" class="nav__social-icon"><ion-icon name="logo-behance"></ion-icon></a>
-                    </div>
-                </div>
-            </nav>
-        </header>
-
-        <!-- ===== IONICONS ===== -->
-        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
-
-        <!--===== MAIN JS =====-->
-        <script src="/js/navbar.js"></script>
-    </body>
-</html>
-
+        <li class="nav-item">
+          <a class="nav-link" href="/demak">
+          <i class="bi bi-emoji-heart-eyes"></i> Family</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

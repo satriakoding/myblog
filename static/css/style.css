@@ -1,20 +1,3 @@
-/* Font Face */
-@font-face {
-  font-family: Sacramento;
-  src: url(/fonts/Sacramento-Regular.ttf);
-  font-display: swap;
-}
-@font-face {
-  font-family: Quicksand;
-  src: url(/fonts/Quicksand_Book.otf);
-  font-display: swap;
-}
-@font-face {
-  font-family: OpenSans;
-  src: url(/fonts/OpenSans-Regular.ttf);
-  font-display: swap;
-}
-
 body {
   font-family: 'OpenSans', Quicksand, sans-serif;
   font-size: 13px;
@@ -25,7 +8,11 @@ body {
 article {
   text-align: justify;
 }
-
+.card-title {
+   font-family: 'Garlic', Quicksand, sans-serif;
+   font-weight: 500;
+   font-size: 20px;
+}
 footer {
    background: #23384E;
    color: #fff;
@@ -66,18 +53,49 @@ mark {
 }
 
 /* <--- NAVBAR BEGIN ---> */
-.navbar {
+nav.navbar {
   background: #23384E;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+padding: 2px;
 }
 
 .navbar-brand {
-  font-family: 'Sacramento', cursive;
+  font-family: 'UrbanJungle', Brightness, Sacramento, cursive;
+  color: #02CBBE;
+  letter-spacing: 2.5px;
+  font-size: 24px;
+}
+.navbar-brand:hover {
+  font-family: 'BrightnessBook', UrbanJungle, Sacramento, cursive;
+  color: #02CBBE;
+}
+.navbar-brand > img {
+  width: 30px;
+  weight: 30px;
+}
+.navbar-brand > span {
+  background: -webkit-linear-gradient(#02CBBE, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .nav-link {
   font-family: 'Quicksand', sans-serif;
-  text-indent: 4px;
+  text-indent: 6px;
   font-weight: 600;
+  color: #02CBBE;
+}
+.nav-link:hover {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  color: #fff;
+}
+
+.nav-link:visited, .nav-link:active {
+  font-family: 'Quicksand', sans-serif;
+  text-indent: 6px;
+  font-weight: 600;
+  color: #yellow;
 }
 
 .navbar-toggler {
@@ -122,7 +140,7 @@ mark {
 /* Color of 3 lines */
 
 .navbar-toggler.collapsed .toggler-icon {
-    background: linear-gradient( 263deg, rgba(252,74,74,1) 0%, rgba(0,212,255,1) 100% );
+    background: linear-gradient( 263deg, #02CBBE, #fff);
 }
 
 /* when navigation is clicked */

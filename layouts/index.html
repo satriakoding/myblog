@@ -1,16 +1,14 @@
 {{ define "main" }}
 
- <h2 class="text-center mt-4 fade-in" style="font-family: 'Quicksand', sans-serif; font-weight: 600; color: #4E689D">My personal blog</h2>
- <br>
  <div class="container">
-   <div class="row mx-1">
+   <div class="row mt-4 mx-1">
         {{ range where .Site.RegularPages "Section" "blog" }}
         <div class="col-md-4 py-1 d-flex justify-content-center">
           <div class="card-group fade-in">
             <div class="card shadow-lg p-0 mb-3 bg-white" style="border: 0; border-radius: 10px">
              <a href="{{.Permalink}}"> <img src="{{ or .Params.cover.image .Params.cover.placeholder}}" class="img-fluid card-img-top lazyload" alt="{{ .Params.cover.title }}" style="width: 100%; height: 160px; border-top-left-radius: 10px; border-top-right-radius: 10px"></a>
                 <div class="card-body">
-                 <div class="inside-out"> <a href="{{ .Permalink }}" class="card-title fs-6 fw-bolder lh-lg">{{ .Title }}</a></div>
+                 <div class="inside-out"> <a href="{{ .Permalink }}" class="card-title">{{ .Title }}</a></div>
                   <p class="card-text left-right">{{ or .Description .Summary }}<br>
 		  <a href="{{ .Permalink }}"> Baca selengkapnya <i class="bi bi-arrow-right"></i></a></p>
                   <p class="card-text text-muted"> <i class="bi bi-person-circle"></i> {{ .Params.author }} &nbsp;  <i class="bi bi-calendar2-heart"></i> {{ .Lastmod.Format "Jan 02, 2006" }}
