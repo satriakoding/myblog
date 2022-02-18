@@ -1,22 +1,25 @@
-<div class="container">
-  <div class="row">
-    <h2 id="title">{{ .Title }}</h2>
-        {{ range .Pages }}
-        <div class="col-md-4 py-2 d-flex justify-content-center">
-          <div class="card-group">
-            <div class="card">
-              <img src="{{ .Params.cover.image }}" class="card-img-top" alt="{{ .Params.cover.title }}">
-                <div class="card-body">
-                  <a href="{{ .Permalink }}" class="card-title">{{ .Title }}</a>
-                  <p class="card-text">{{ .Description }}</p>
-                  <p class="card-text">
-                    <small class="text-muted">{{ .Params.author }}<br/>
-                    {{ .Date.Format "Monday, 02 Jan 2006" }}</small>
-                  </p>
-                </div>
-            </div>
-          </div>
-        </div>
-        {{ end }}
-      </div>
+<div class="container py-3">
+
+<div class="card-box fade-in">
+  <div class="linear-gradient">
+
+  <div class="row py-2 my-2">
+
+{{ range where .Site.RegularPages "Section" "blog" }}
+    <div class="col-5 pb-2">
+      <img src="{{ .Params.cover.image }}"   class="img-fluid" alt="{{ .Params.cover.title }}" style="width: 100%; height: 80px; border-radius: 4px">
     </div>
+
+    <div class="col-7 align-text-top">
+    <p class="inside-out">
+    <a href="{{ .Permalink }}" class="fw-bolder inside-out">{{ or .Params.cover.seo .Title }}</a></p>
+     <p><small class="text-muted">{{ .Params.author }} /
+     {{ .Lastmod.Format "Jan 02, 2006" }}</small>
+     </p>
+    </div>
+{{ end }}
+  </div>
+</div>
+
+</div>
+</div>

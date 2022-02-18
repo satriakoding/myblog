@@ -10,6 +10,7 @@ tags:
   - web development
 cover:
     title: disable zoom
+    seo: Cara menonaktifkan zoom out pada website
     image: "/img/post/disable-zoom-out.jpg"
     sourceImage: Upklyak on Freepik.com
 author: Surur

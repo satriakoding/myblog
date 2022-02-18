@@ -8,6 +8,7 @@ tags:
     -
 cover:
     title: 
+    seo:
     image: 
     sourceImage:
     placeholder: /img/placeholder.jpg

@@ -10,12 +10,13 @@ tags:
     - font-style
 cover:
     title: optimize font
+    seo: Cara optimasi font pada website
     image: /img/post/optimize-font.jpg
     sourceImage: seniwent_artwork on Freepik
 author: Surur
 url: cara-optimasi-font-pada-website
-aliases:
-    - optimasi font style untuk mempercepat loading website
+aliases: 
+    - cara optimasi font pada website
 description: Tak hanya image, ternyata optimasi font-style juga dapat mempercepat loading website loh..
 ---
 

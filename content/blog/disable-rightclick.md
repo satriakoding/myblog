@@ -9,10 +9,11 @@ tags:
     - web development
 cover:
     title: disable right-click
+    seo: Cara mudah menonaktifkan klik kanan pada website
     image: "/img/post/disable-image.jpg"
     sourceImage: Noviyanita on Freepik.com
 author: Surur
-url: disable-right-click
+url: cara-disable-right-click
 aliases:
     - cara-menonaktifkan-klik-kanan
 description: Dalam kondisi tertentu, adakalanya kita ingin melindungi konten atau asset (foto) yang ada didalam website kita, entah alasan privacy, pembajakan, ataupun lainnya. Dan salah satu cara paling umum yaitu . . .
