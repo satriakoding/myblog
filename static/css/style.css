@@ -13,6 +13,33 @@ article {
    font-weight: 500;
    font-size: 20px;
 }
+.box {
+  max-width: 250px;
+  position: relative;
+  background: linear-gradient(45deg, #02CBBE, #FFC600);
+  padding: 3px;
+  border-radius: 6px;
+}
+.card-box {
+  max-width: 100%;
+  position: relative;
+  background: linear-gradient(90deg, #02CBBE, #FFC600);
+  padding: 2px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+.linear-gradient {
+  background: #fff;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+
+abbr { 
+  display: inline;
+  color: #23384e;
+} 
+
 footer {
    background: #23384E;
    color: #fff;
@@ -24,7 +51,7 @@ footer {
    font-weight: 200;
 }
 footer > a {
-   color: #FFA1C9;
+   color: #02CBBE;
 }
 footer > a:hover {
    color: yellow;

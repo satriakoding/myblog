@@ -1,6 +1,7 @@
-<div class="container-fluid py-3">
-<div class="card border-2 shadow-lg p-0 mb-3 bg-white rounded fade-in" style="border: 2px solid #02CBBE;">
-  <div class="card-body px-2">
+<div class="container py-3">
+
+<div class="card-box fade-in">
+  <div class="linear-gradient">
   <h5 class="text-center">{{ .Title }}</h5>
   <ul>
     {{ range .Pages }}
@@ -12,15 +13,17 @@
   </ul>
     <div class="text-center">
     <figure>
-      <img src="{{ or .Params.cover.image .Params.cover.placeholder }}" class="img-fluid rounded lazyload" style="object-fit: cover; width: 100%; height: 160px;">
-      <figcaption><small class="fst-italic">Photo by {{.Params.cover.sourceImage}}</small></figcaption>
+      <img src="{{ or .Params.cover.image .Params.cover.placeholder }}" class="img-fluid rounded lazyload" style="object-fit: cover; width:
+100%; height: 160px;">
+      <figcaption><small class="fst-italic">Photo by {{.Params.cover.sourceImage}}</small></figaption>
     </figure>
     </div>
       <article id="content" style="text-align: justify">
          {{ .Content }}
       </article>
-      <small><i class="bi bi-calendar2-check"></i> &nbsp; Publish on : <em>{{ .Date.Format "January 02, 2006" }}</em><br>
+      <small><i class="bi bi-calendar2-check"></i> &nbsp; Publish on <em>{{ .Date.Format "January 02, 2006" }}</em><br>
    <i class="bi bi-calendar2-plus"></i> &nbsp; Last Modified: <em>{{ .Lastmod.Format "January 02, 2006" }} </em></small>
   </div>
 </div>
+
 </div>
