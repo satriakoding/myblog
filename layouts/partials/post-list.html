@@ -1,25 +1,25 @@
-<div class="container py-3">
-
-<div class="card-box fade-in">
-  <div class="linear-gradient">
-
-  <div class="row py-2 my-2">
-
-{{ range where .Site.RegularPages "Section" "blog" }}
-    <div class="col-5 pb-2">
-      <img src="{{ .Params.cover.image }}"   class="img-fluid" alt="{{ .Params.cover.title }}" style="width: 100%; height: 80px; border-radius: 4px">
-    </div>
-
-    <div class="col-7 align-text-top">
-    <p class="inside-out">
-    <a href="{{ .Permalink }}" class="fw-bolder inside-out">{{ or .Params.cover.seo .Title }}</a></p>
-     <p><small class="text-muted">{{ .Params.author }} /
-     {{ .Lastmod.Format "Jan 02, 2006" }}</small>
-     </p>
-    </div>
-{{ end }}
-  </div>
+<div class="container-fluid bg-white p-3">
+<img src="/img/coder3.jpg" class="img-fluid rounded" style="width: 100%; height: 180px;">
 </div>
 
-</div>
+<div class="container-fluid">
+   <div class="row mx-3">
+        {{ range where .Site.RegularPages "Section" "blog" }}
+        <div class="col-md-4 mx-auto px-2 mt-3 d-flex justify-content-center">
+          <div class="card-group fade-in">
+            <div class="card shadow-lg mb-2 bg-white" style="border: 0; border-radius: 10px">
+             <a href="{{.Permalink}}"> <img src="{{ or .Params.cover.image .Params.cover.placeholder}}" class="img-fluid card-img-top lazyload" alt="{{ .Params.cover.title }}" style="width: 100%; height: 160px; border-top-left-radius: 10px; border-top-right-radius: 10px"></a>
+                <div class="card-body">
+                 <div class="inside-out"> <a href="{{ .Permalink }}" class="card-title">{{ .Title }}</a></div>
+                  <p class="card-text left-right pt-2">{{ or .Description .Summary }}<br>
+		  <a href="{{ .Permalink }}" class="pt-2 fst-italic">Read more <i class="bi bi-arrow-right"></i></a></p>
+                  <p class="card-text text-muted"> <i class="bi bi-person-circle"></i> {{ .Params.author }} &nbsp;  <i class="bi bi-calendar2-heart"></i> {{ .Lastmod.Format "Jan 02, 2006" }}
+                  </p>
+                </div>
+
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
 </div>

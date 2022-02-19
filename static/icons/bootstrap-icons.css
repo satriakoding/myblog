@@ -28,3 +28,6 @@
 .bi-shield-check::before { content: "\f52f"; }
 .bi-calendar2-heart::before { content: "\f712"; }
 .bi-house-heart-fill::before { content: "\f775"; }
+.bi-hash::before { content: "\f40A"; }
+.bi-lightning::before { content: "\f46f"; }
+.bi-bookmarks::before { content: "\f1a4"; }
