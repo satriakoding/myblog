@@ -42,20 +42,14 @@ abbr {
 } 
 
 footer {
-   background: #23384E;
-   color: #fff;
-   margin-top: -15px;
-   padding-bottom: 15px;
-   font-size: lighter;
+   font-size: 11px;
    text-align: center;
-   font-family: 'Redressed', cursive;
-   font-weight: 200;
 }
 footer > a {
    color: #02CBBE;
 }
 footer > a:hover {
-   color: yellow;
+   color: orange;
 }
 img {
   loading: lazy;
