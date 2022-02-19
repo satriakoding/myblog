@@ -1,7 +1,7 @@
 baseURL: '/'
 languageCode: id-ID
 title: Jejak Digital
-summaryLength: 10
+summaryLength: '10'
 
 # this isrequired so that Hugo will render markdown to HTML
 markup:

@@ -53,9 +53,9 @@
    <a href="{{ .Permalink }}"><img src="{{ .Params.cover.image }}"   class="img-fluid" alt="{{ .Params.cover.title }}" style="width: 110px; height: 75px; border-radius: 6px;"></a>
   </div>
   <div class="flex-grow-1 ms-auto ps-2">
-   <div class="inside-out fw-bold"><a href="{{ .Permalink }}">{{ or .Params.cover.seo .Title }}</a></div><br>
-   <div class="left-right">
-   <a href="{{.Permalink}}">Read more <i class="bi bi-arrow-right"></i></a>
+   <div class="inside-out fw-bold"><a href="{{ .Permalink }}">{{ or .Params.cover.seo .Title }}</a></div>
+   <div class="left-right pt-2">
+   <a href="{{.Permalink}}">Read more <i class="bi bi-arrow-right-circle"></i></a>
    </div>
   </div>
 </div>

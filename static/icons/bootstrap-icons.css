@@ -20,7 +20,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.bi-arrow-right::before { content: "\f138"; }
+.bi-arrow-right-circle::before { content: "\f134"; }
 .bi-chat-square-quote::before { content: "\f262"; }
 .bi-emoji-heart-eyes::before { content: "\f31f"; }
 .bi-globe::before { content: "\f3ee"; }
