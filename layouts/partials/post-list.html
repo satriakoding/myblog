@@ -4,7 +4,8 @@
 
 <div class="container-fluid fade-in">
    <div class="row mx-3">
-        {{ range where .Site.RegularPages "Section" "blog" }}
+
+        {{ range .Paginator.Pages }}
         <div class="col-md-4 mx-auto px-2 mt-3 d-flex justify-content-center">
           <div class="card-group fade-in">
             <div class="card shadow-lg mb-2 bg-white" style="border: 0; border-radius: 10px">

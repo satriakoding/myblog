@@ -4,7 +4,7 @@ description: My Personal Blog
 languageCode: id-ID
 title: Jejak Digital
 summaryLength: 10
-paginate: 2
+paginate: 5
 
 # this isrequired so that Hugo will render markdown to HTML
 markup:
