@@ -31,3 +31,6 @@
 .bi-hash::before { content: "\f40A"; }
 .bi-lightning::before { content: "\f46f"; }
 .bi-bookmarks::before { content: "\f1a4"; }
+.bi-moon-stars::before { content: "\f496"; }
+.bi-sun::before { content: "\f5a2"; }
+

@@ -24,7 +24,7 @@ article {
 .card-box {
   max-width: 100%;
   position: relative;
-  background: linear-gradient(90deg, #02CBBE, #FFC600);
+  background: linear-gradient(90deg, #02CBBE, orange);
   padding: 2px;
   margin-bottom: 10px;
   border-radius: 6px;
