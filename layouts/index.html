@@ -53,7 +53,7 @@
   </div>
   <div class="flex-grow-1 ms-auto ps-2">
    <div class="inside-out fw-bold"><a href="{{ .Permalink }}">{{ or .Params.cover.seo .Title }}</a></div>
-   <div class="left-right pt-2">
+   <div class="left-right pt-2 fw-normal">
    <a href="{{.Permalink}}">Read more <i class="bi bi-arrow-right-circle"></i></a>
    </div>
   </div>
@@ -73,7 +73,7 @@
 <div class="d-flex py-2" style="border-bottom: 1px dotted lightgrey;">
   <div class="flex-shrink-0"><i class="bi bi-hash"></i> </div>
   <div class="flex-grow-1 ms-auto ps-2">
-   <div class="inside-out fw-bold"><a href="{{ .Permalink }}">{{ or .Params.cover.seo .Title }}</a></div>
+   <div class="left-right fw-bold"><a href="{{ .Permalink }}">{{ or .Params.cover.seo .Title }}</a></div>
   </div>
 </div>
 {{ end }}
