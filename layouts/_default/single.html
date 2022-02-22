@@ -18,12 +18,22 @@
       <figcaption><small class="fst-italic">Photo by {{.Params.cover.sourceImage}}</small></figaption>
     </figure>
     </div>
-      <article id="content" style="t
-ext-align: justify">
+      <article id="content" style="text-align: justify">
          {{ .Content }}
       </article>
       <small><i class="bi bi-calendar2-check"></i> &nbsp; Publish on <em>{{ .Date.Format "January 02, 2006" }}</em><br>
-   <i class="bi bi-calendar2-plus"></i> &nbsp; Last Modified: <em>{{ .Lastmod.Format "January 02, 2006" }} </em></small>
+   <i class="bi bi-calendar2-plus"></i> &nbsp; Last Modified: <em>{{ .Lastmod.Format "January 02, 2006" }} </em></small><br>
+<!------- Profil Author Begin -------->
+<div class="d-flex align-items-center p-2">
+  <div class="flex-shrink-0 p-2">
+    <img src="/avatar/developer.gif" alt="author" class="rounded"  style="width: 120px; height: 120px">
+  </div>
+  <div class="flex-grow-1">
+    <h5 style="font-family: Misa; background: transparent">{{ .Params.Author }}</h5>
+    <p>#Pengangguran produktif</p>
+  </div>
+</div>
+<!------- Profil Author End -------->
 </div>
 </div>
 

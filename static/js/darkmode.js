@@ -12,12 +12,12 @@ toggle.addEventListener("click", () => {
 });
 
 function setTheme(mode) {
-    if (mode === "dark") {
+    if (mode === "light") {
         darkTheme.disabled = false;
-        toggle.className = "bi bi-sun";
-    } else if (mode === "light") {
-        darkTheme.disabled = true;
         toggle.className = "bi bi-moon-stars";
+    } else if (mode === "dark") {
+        darkTheme.disabled = true;
+        toggle.className = "bi bi-sun";
     }
     localStorage.setItem("dark-mode-storage", mode);
 }

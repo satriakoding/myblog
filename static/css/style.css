@@ -1,13 +1,19 @@
 body {
   background: #f4f4f4;
-  font-family: 'OpenSans', Quicksand, sans-serif;
-  font-size: 14px;
-  font-weight: 500;
+  color: #121110;
+  font-family: 'SourceSansPro', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
   text-align: justify;
 }
 .card-post {
   background: #fff;
   padding: 12px;
+}
+.font-title {
+  font-weight: 500;
+  font-size: 16px;
 }
 .card-link {
   color: #09A4A8;
@@ -16,7 +22,7 @@ article {
   text-align: justify;
 }
 .card-title {
-   font-family: 'Garlic', Quicksand, sans-serif;
+   font-family: 'FakeHope', OriginTech, Quicksand, sans-serif;
    font-weight: 500;
    font-size: 20px;
 }
@@ -84,24 +90,24 @@ mark {
 /* <--- NAVBAR BEGIN ---> */
 nav.navbar {
   background: #23384E;
-  color: #02CBBE;
+  color: #0FCCCE;
   padding: 2px 0px;
   border-bottom: 2px solid #02CBBE;
 }
 
 .navbar-brand {
-  font-family: 'UrbanJungle', Brightness, Sacramento, cursive;
+  font-family: 'Brightness', UrbanJungle, Sacramento, cursive;
   letter-spacing: 2.5px;
   font-size: 23px;
   font-weight: normal;
 }
 .navbar-brand:hover {
-  font-family: 'BrightnessBook', UrbanJungle, Sacramento, cursive;
+  font-family: 'UrbanJungle', BrightnessBook, Sacramento, cursive;
   color: #02CBBE;
 }
 .navbar-brand > img {
-  width: 28px;
-  weight: 28px;
+  width: 26px;
+  weight: 26px;
 }
 .navbar-brand > span {
   background: -webkit-linear-gradient(#02CBBE, #fff);
@@ -113,7 +119,7 @@ nav.navbar {
   font-family: 'Quicksand', sans-serif;
   text-indent: 2px;
   font-weight: 600;
-  color: #02CBBE;
+  color: #0FCCCE;
 }
 .nav-link:hover {
   font-family: 'Quicksand', sans-serif;
@@ -156,7 +162,7 @@ nav.navbar {
     height: 2px;
     width: 100%;
 /*    background: linear-gradient( 263deg, rgba(252,74,74,1) 0%, rgba(0,212,255,1) 100% ); */
-    background: linear-gradient( to bottom, #02CBBE, #fff);
+    background: linear-gradient( to bottom, #0FCCCE, #fff);
     border-radius: 1px;
     opacity: 1;
     left: 0;
@@ -171,7 +177,7 @@ nav.navbar {
 /* Color of 3 lines */
 
 .navbar-toggler.collapsed .toggler-icon {
-    background: linear-gradient( 263deg, #02CBBE, #fff);
+    background: linear-gradient( 263deg, #0FCCCE, #fff);
 }
 
 /* when navigation is clicked */
