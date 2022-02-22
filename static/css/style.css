@@ -5,8 +5,10 @@ body {
   font-weight: 500;
   text-align: justify;
 }
-.card-body {
+.card-article {
   background: #fff;
+  padding: 8px;
+  border-radius: 8px;
 }
 .card-link {
   color: #09A4A8;

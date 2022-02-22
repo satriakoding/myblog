@@ -1,7 +1,7 @@
 {{ define "main" }}
 
-<div class="container bg-light shadow-md p-3">
-
+<div class="container p-2">
+<div class="card-article fade-in">
   <h5 class="text-center">{{ .Title }}</h5>
   <ul>
     {{ range .Pages }}
@@ -18,13 +18,32 @@
       <figcaption><small class="fst-italic">Photo by {{.Params.cover.sourceImage}}</small></figaption>
     </figure>
     </div>
-      <article id="content" style="text-align: justify">
+      <article id="content" style="t
+ext-align: justify">
          {{ .Content }}
       </article>
       <small><i class="bi bi-calendar2-check"></i> &nbsp; Publish on <em>{{ .Date.Format "January 02, 2006" }}</em><br>
    <i class="bi bi-calendar2-plus"></i> &nbsp; Last Modified: <em>{{ .Lastmod.Format "January 02, 2006" }} </em></small>
-
+</div>
 </div>
 
+<!------- Relate Post Begin -------->
+<div class="container p-2">
+<div class="card-article fade-in">
+<h6 class="fw-bolder pb-2 mb-0" style="border-bottom: 1px solid grey;">
+<i class="bi bi-lightning"></i> Relate Post</h6>
+{{ range where .Site.RegularPages "Section" "blog" }}
+<div class="d-flex py-2" style="border-bottom: 1px dotted grey;">
+  <div class="flex-shrink-0"><i class="bi bi-hash"></i> </div>
+  <div class="flex-grow-1 ms-auto ps-2">
+   <div class="left-right fw-bolder"><a href="{{ .Permalink }}">{{ or
+.Params.cover.seo .Title }}</a></div>
+  </div>
+</div>
+{{ end }}
+</div>
+</div>
+</div>
+<!------- Most Popular End -------->
 
 {{ end }}
