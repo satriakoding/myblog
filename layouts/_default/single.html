@@ -1,7 +1,7 @@
 {{ define "main" }}
 
-<div class="container p-2">
-<div class="card-article fade-in">
+<div class="container mb-2 px-0">
+<div class="card-post px-3 fade-in">
   <h5 class="text-center">{{ .Title }}</h5>
   <ul>
     {{ range .Pages }}
@@ -28,8 +28,8 @@ ext-align: justify">
 </div>
 
 <!------- Relate Post Begin -------->
-<div class="container p-2">
-<div class="card-article fade-in">
+<div class="container my-2 px-0">
+<div class="card-post fade-in">
 <h6 class="fw-bolder pb-2 mb-0" style="border-bottom: 1px solid grey;">
 <i class="bi bi-lightning"></i> Relate Post</h6>
 {{ range where .Site.RegularPages "Section" "blog" }}

@@ -8,6 +8,10 @@ html {
 body, code, pre {
     background-color: #d9d7f1 !important;
 }
+
+nav.navbar {
+    background-color: #23384E !important;
+}
 img,
 video,
 body * [style*="background-image"] {

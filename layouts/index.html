@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <!------- Hero Section Begin  -------->
-<div class="container bg-white pt-3 pb-2 px-3 fade-in">
+<div class="container card-post pt-3 pb-2 px-3 fade-in">
 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -44,7 +44,7 @@
 <!------- Hero Section End -------->
 
 <!------- Recent Post Begin -------->
-<div class="container card-body  my-2 py-2 px-3 fade-in">
+<div class="container card-post  my-2 py-2 px-3 fade-in">
 <h6 class="fw-bolder pb-2 mb-0" style="border-bottom: 1px solid grey;">
 <i class="bi bi-bookmarks"></i> Recent updates</h6>
 {{ $paginator := .Paginate (where .Site.RegularPages "Type" "blog") }}{{ range $paginator.Pages }}
@@ -66,7 +66,7 @@
 <!------- Recent Post End -------->
 
 <!------- Most Popular Begin -------->
-<div class="container card-body my-2 py-2 px-3 fade-in">
+<div class="container card-post my-2 py-2 px-3 fade-in">
 <h6 class="fw-bolder pb-2 mb-0" style="border-bottom: 1px solid grey;">
 <i class="bi bi-lightning"></i> Most Popular</h6>
 {{ range where .Site.RegularPages "Section" "blog" }}

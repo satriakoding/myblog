@@ -5,10 +5,9 @@ body {
   font-weight: 500;
   text-align: justify;
 }
-.card-article {
+.card-post {
   background: #fff;
-  padding: 8px;
-  border-radius: 8px;
+  padding: 12px;
 }
 .card-link {
   color: #09A4A8;
@@ -87,6 +86,7 @@ nav.navbar {
   background: #23384E;
   color: #02CBBE;
   padding: 2px 0px;
+  border-bottom: 2px solid #02CBBE;
 }
 
 .navbar-brand {
