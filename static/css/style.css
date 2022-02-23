@@ -104,7 +104,7 @@ nav.navbar {
 .navbar-brand {
   font-family: 'BrightnessInverted', UrbanJungle, Sacramento, cursive;
   letter-spacing: 2.5px;
-  font-size: 23px;
+  font-size: 20px;
   font-weight: normal;
 }
 .navbar-brand:hover {
@@ -121,6 +121,7 @@ nav.navbar {
   font-family: 'Quicksand', sans-serif;
   text-indent: 2px;
   font-weight: 600;
+  font-size: 13px;
   color: #0FCCCE;
 }
 .nav-link:hover {
