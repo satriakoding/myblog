@@ -12,6 +12,12 @@ body {
   padding: 12px;
 }
 .font-title {
+  font-family: 'Garlic', Quicksand, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+.font-link {
+  font-family: 'SourceSansPro', Quicksand, sans-serif;
   font-weight: 500;
   font-size: 16px;
 }
@@ -22,7 +28,7 @@ article {
   text-align: justify;
 }
 .card-title {
-   font-family: 'FakeHope', OriginTech, Quicksand, sans-serif;
+   font-family: 'OriginTech', Quicksand, sans-serif;
    font-weight: 500;
    font-size: 20px;
 }
@@ -96,7 +102,7 @@ nav.navbar {
 }
 
 .navbar-brand {
-  font-family: 'Brightness', UrbanJungle, Sacramento, cursive;
+  font-family: 'BrightnessInverted', UrbanJungle, Sacramento, cursive;
   letter-spacing: 2.5px;
   font-size: 23px;
   font-weight: normal;
@@ -105,12 +111,8 @@ nav.navbar {
   font-family: 'UrbanJungle', BrightnessBook, Sacramento, cursive;
   color: #02CBBE;
 }
-.navbar-brand > img {
-  width: 26px;
-  weight: 26px;
-}
 .navbar-brand > span {
-  background: -webkit-linear-gradient(#02CBBE, #fff);
+  background: -webkit-linear-gradient(#fff, #02CBBE);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

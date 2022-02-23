@@ -5,13 +5,8 @@
   font-display: swap;
 }
 @font-face {
-  font-family: OriginTech;
-  src: url(/fonts/OriginTech.ttf);
-  font-display: swap;
-}
-@font-face {
-  font-family: FakeHope;
-  src: url(/fonts/FakeHope.ttf);
+  font-family: Garlic;
+  src: url(/fonts/Garlic.ttf);
   font-display: swap;
 }
 @font-face {
@@ -42,6 +37,11 @@
 @font-face {
   font-family: BrightnessInverted;
   src: url(/fonts/BrightnessInverted.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: BrightnesSignature;
+  src: url(/fonts/BrightnesSignature.ttf);
   font-display: swap;
 }
 @font-face {

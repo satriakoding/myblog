@@ -11,7 +11,7 @@
             <div class="card shadow-lg mb-2 bg-white" style="border: 0; border-radius: 10px">
              <a href="{{.Permalink}}"> <img src="{{ or .Params.cover.image .Params.cover.placeholder}}" class="img-fluid card-img-top lazyload" alt="{{ .Params.cover.title }}" style="width: 100%; height: 150px; border-top-left-radius: 10px; border-top-right-radius: 10px"></a>
                 <div class="card-body">
-                 <div class="inside-out"> <a href="{{ .Permalink }}" class="card-title">{{ .Title }}</a></div>
+                 <div class="inside-out"> <a href="{{ .Permalink }}" class="font-title">{{ .Title }}</a></div>
                   <p class="card-text left-right pt-2">{{ or .Description .Summary }}<br>
 		  <a href="{{ .Permalink }}" class="pt-2 fst-italic">Read more <i class="bi bi-arrow-right"></i></a></p>
                   <p class="card-text text-muted"> <i class="bi bi-person-circle"></i> {{ .Params.author }} &nbsp;  <i class="bi bi-calendar2-heart"></i> {{ .Lastmod.Format "Jan 02, 2006" }}
