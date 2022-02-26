@@ -1,20 +1,20 @@
 body {
   background: #f4f4f4;
-  color: #121110;
+  color: #2C3333;
   font-family: 'SourceSansPro', sans-serif;
-  font-size: 1rem;
+  font-size: 14px;
   font-weight: 400;
   line-height: 1.4;
   text-align: justify;
 }
 .card-post {
   background: #fff;
-  padding: 12px;
+  padding: 10px 16px;
 }
 .font-title {
   font-family: 'Garlic', Quicksand, sans-serif;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
 }
 .font-link {
   font-family: 'SourceSansPro', Quicksand, sans-serif;
@@ -121,7 +121,7 @@ nav.navbar {
   font-family: 'Quicksand', sans-serif;
   text-indent: 2px;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 14px;
   color: #0FCCCE;
 }
 .nav-link:hover {

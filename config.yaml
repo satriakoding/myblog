@@ -1,6 +1,8 @@
 baseURL: '/'
-author: Surur
-description: My Personal Blog
+params:
+  author: Miftahus Surur
+  description: Freelance Web Developer
+  tagline: My Personal Blog
 languageCode: id-ID
 title: Jejak Digital
 summaryLength: 10

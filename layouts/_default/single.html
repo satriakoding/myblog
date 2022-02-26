@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <div class="container mb-2 px-0">
-<div class="card-post px-3 fade-in">
+<div class="card-post fade-in">
   <h5 class="text-center">{{ .Title }}</h5>
   <ul>
     {{ range .Pages }}
@@ -24,13 +24,15 @@
       <small><i class="bi bi-calendar2-check"></i> &nbsp; Publish on <em>{{ .Date.Format "January 02, 2006" }}</em><br>
    <i class="bi bi-calendar2-plus"></i> &nbsp; Last Modified: <em>{{ .Lastmod.Format "January 02, 2006" }} </em></small><br>
 <!------- Profil Author Begin -------->
-<div class="d-flex align-items-center p-2">
-  <div class="flex-shrink-0 p-2">
-    <img src="/avatar/developer.gif" alt="author" class="rounded"  style="width: 120px; height: 120px">
-  </div>
-  <div class="flex-grow-1">
-    <h5 style="font-family: Misa; background: transparent">{{ .Params.Author }}</h5>
-    <p>#Pengangguran produktif</p>
+<div class="post-author">
+  <div class="row pt-3 align-items-center">
+    <div class="col-4">
+      <img src="/avatar/developer.gif" alt="author" class="rounded" style="width: 120px; height: 120px">
+    </div>
+    <div class="col-8 ps-4">
+      <h5 style="font-family: Misa; background: transparent">{{ .Site.Params.author }}</h5>
+    <p>{{ .Site.Params.description }}</p>
+    </div>
   </div>
 </div>
 <!------- Profil Author End -------->
