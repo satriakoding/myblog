@@ -33,4 +33,5 @@
 .bi-bookmarks::before { content: "\f1a4"; }
 .bi-moon-stars::before { content: "\f496"; }
 .bi-sun::before { content: "\f5a2"; }
-
+.bi-calendar-plus::before { content: "\f1ef"; }
+.bi-calendar-check::before { content: "\f1e2"; }
