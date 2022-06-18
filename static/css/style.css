@@ -70,6 +70,12 @@ footer > a {
 footer > a:hover {
    color: orange;
 }
+
+.highlight >  pre {
+   padding: 5px 20px 5px 20px;
+   border-radius: 5px;
+}
+
 img {
   loading: lazy;
 }
@@ -102,8 +108,7 @@ nav.navbar {
 }
 
 .navbar-brand {
-  font-family: 'BrightnessInverted', UrbanJungle, Sacramento, cursive;
-  letter-spacing: 2.5px;
+  font-family: 'BrightnessInverted', UrbanJungle, Sacramento, cursive;  letter-spacing: 2.5px;
   font-size: 20px;
   font-weight: normal;
 }
