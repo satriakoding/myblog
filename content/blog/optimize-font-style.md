@@ -36,7 +36,7 @@ Dari pengujian diatas kita bisa melihat bahwa sistem memerlukan waktu tambahan u
 Setelah mengikuti petunjuk dari situs pengujian tersebut, ternyata sangat sederhana solusinya, yaitu dengan mengatur <mark>font-display: swap</mark> sebagai font standar.
 
 Sebelumnya pengaturan font di web saya seperti ini<br>
-```
+```css
 @font-face {
   font-family: Sacramento;
   src: url(/fonts/Sacramento-Regular.ttf);

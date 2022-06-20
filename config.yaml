@@ -1,10 +1,10 @@
 baseURL: '/'
 params:
   author: Miftahus Surur
-  description: Freelance Web Developer
+  description: Di sosial media, kita bisa menjadi siapa saja.
   tagline: My Personal Blog
 languageCode: id-ID
-title: Jejak Digital
+title: Miftahus Surur
 summaryLength: 10
 paginate: 5
 

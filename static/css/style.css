@@ -2,7 +2,7 @@ body {
   background: #f4f4f4;
   color: #2C3333;
   font-family: 'SourceSansPro', sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 400;
   line-height: 1.4;
   text-align: justify;
@@ -61,7 +61,7 @@ abbr {
 
 footer {
    background: #23384E;
-   font-size: 10px;
+   font-size: 11px;
    text-align: center;
 }
 footer > a {
@@ -108,12 +108,12 @@ nav.navbar {
 }
 
 .navbar-brand {
-  font-family: 'BrightnessInverted', UrbanJungle, Sacramento, cursive;  letter-spacing: 2.5px;
+  font-family: 'UrbanJungle', BrightnessInverted, Sacramento, cursive;  letter-spacing: 2.5px;
   font-size: 20px;
   font-weight: normal;
 }
 .navbar-brand:hover {
-  font-family: 'UrbanJungle', BrightnessBook, Sacramento, cursive;
+  font-family: 'BrightnessInverted', BrightnessBook, Sacramento, cursive;
   color: #02CBBE;
 }
 .navbar-brand > span {
@@ -170,7 +170,7 @@ nav.navbar {
     height: 2px;
     width: 100%;
 /*    background: linear-gradient( 263deg, rgba(252,74,74,1) 0%, rgba(0,212,255,1) 100% ); */
-    background: linear-gradient( to bottom, #0FCCCE, #fff);
+    background: linear-gradient( to right, #0FCCCE, #fff);
     border-radius: 1px;
     opacity: 1;
     left: 0;
