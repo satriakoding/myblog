@@ -7,6 +7,10 @@ a:hover {
   color: #0FCCCE;
 }
 
+a:hover {
+  background-position-y: 100%;
+}
+
 .inside-out > a {
   position: relative;
   color: #23384E;

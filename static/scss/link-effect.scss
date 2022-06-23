@@ -10,6 +10,11 @@ a {
 }
 
 
+a:hover {
+   background-position-y: 100%;
+}
+
+
 // Inside out
 .inside-out > a {
 	position: relative;

@@ -11,7 +11,7 @@ tags:
 cover:
     title: 
     seo:
-    image: 
+    image: /img/post/hugo-install.jpg 
     sourceImage:
     placeholder: /img/placeholder.jpg
 author: Surur

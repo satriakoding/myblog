@@ -11,7 +11,7 @@ tags:
 cover:
     title: wp memory limit
     seo: Cara menaikkan memory limit pada Wordpress
-    image: 
+    image: /img/post/wp-memorylimit.jpg
     sourceImage:
     placeholder: /img/placeholder.jpg
 author: Surur
