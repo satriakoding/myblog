@@ -1,7 +1,7 @@
 baseURL: '/'
 params:
   author: Miftahus Surur
-  description: Di sosial media, kita bisa menjadi siapa saja.
+  description: Di sosial media, kita bisa menjadi siapa saja
   tagline: My Personal Blog
 languageCode: id-ID
 title: Miftahus Surur

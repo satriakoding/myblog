@@ -8,10 +8,6 @@
     animation-fill-mode:forwards;  /* this makes sure that after anima
 tion is done we remain at the last keyframe value (opacity: 1)*/
 
-    animation-duration:1.5s;
-    animation-delay: 0.3s;
-}
-/* <--- NAVBAR BEGIN ---> */
-.navbar {
-  background: #23384E;
+    animation-duration:1.6s;
+    animation-delay: 0.4s;
 }

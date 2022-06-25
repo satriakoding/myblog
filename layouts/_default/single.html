@@ -1,80 +1,12 @@
-{{ define "main" }}
+<!DOCTYPE html>
+<html>
+    {{ partial "head" . }}
+    <body>
+        {{ partial "navbar" . }}
 
-<div class="container mb-2 px-0">
-<div class="card-post fade-in">
-  <h5 class="text-center">{{ .Title }}</h5>
-  <ul>
-    {{ range .Pages }}
-        <li>
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-            {{ .Params.tags }}
-        </li>
-    {{ end }}
-  </ul>
-    <div class="text-center">
-    <figure>
-      <img src="{{ or .Params.cover.image .Params.cover.placeholder }}" class="img-fluid rounded lazyload" style="object-fit: cover; width:
-100%; height: 160px;">
-      <figcaption><small class="fst-italic">Photo by {{.Params.cover.sourceImage}}</small></figaption>
-    </figure>
-    </div>
-      <article id="content" style="text-align: justify">
-         {{ .Content }}
-      </article>
-      <small><i class="bi bi-calendar-check"></i> &nbsp; Publish on : {{ .Date.Format "January 02, 2006" }}<br>
-   <i class="bi bi-calendar-plus"></i> &nbsp; Last Modified : {{ .Lastmod.Format "January 02, 2006" }}</small><br>
-<!------- Profil Author Begin -------->
-<div class="post-author">
-  <div class="row pt-3 align-items-center">
-    <div class="col-4">
-      <img src="/avatar/developer.gif" alt="author" class="rounded" style="width: 120px; height: 120px">
-    </div>
-    <div class="col-8 ps-4">
-      <h5 style="font-family: Misa; background: transparent">{{ .Site.Params.author }}</h5>
-    <p>{{ .Site.Params.description }}</p>
-    </div>
-  </div>
-</div>
-<!------- Profil Author End -------->
-</div>
-</div>
+        {{ partial "post-single" . }}
 
-<!------- Recent Post Begin -------->
-<div class="container card-post  my-2 py-2 px-3 fade-in">
-<h6 class="font-title pb-2 mb-0" style="border-bottom: 1px solid grey;">
-<i class="bi bi-bookmarks"></i> Related Post</h6>
-{{ range where .Site.RegularPages "Type" "blog" }}
-<div class="d-flex py-2" style="border-bottom: 1px dotted grey;">  <div class="flex-shrink-0">
-   <a href="{{ .Permalink }}"><img src="{{ or .Params.cover.image .Params.cover.placeholder }}"   class="img-fluid" alt="{{ .Params.cover.title }}" style="width: 110px; height: 75px; border-radius: 6px;"></a>
-  </div>
-  <div class="flex-grow-1 ms-auto ps-2">
-   <h6 class="font-link"><a href="{{ .Permalink }}">{{ or .Params.cover.seo .Title }}</a></h6>
-   <div class="text-muted">
-    <small>Last updated : {{ .Lastmod.Format "Jan 02, 2006" }}</small>
-   </div>
-  </div>
-</div>
-{{ end }}
-</div>
-<!------- Recent Post End -------->
-
-<!------- Relate Post Begin -------->
-<div class="container my-2 px-0">
-<div class="card-post fade-in">
-<h6 class="font-title pb-2 mb-0" style="border-bottom: 1px solid grey;">
-<i class="bi bi-lightning"></i>Most Popular</h6>
-{{ range where .Site.RegularPages "Section" "blog" }}
-<div class="d-flex py-2" style="border-bottom: 1px dotted grey;">
-  <div class="flex-shrink-0"><i class="bi bi-hash"></i> </div>
-  <div class="flex-grow-1 ms-auto ps-2">
-   <div class="font-post left-right"><a href="{{ .Permalink }}">{{ or
-.Params.cover.seo .Title }}</a></div>
-  </div>
-</div>
-{{ end }}
-</div>
-</div>
-</div>
-<!------- Most Popular End -------->
-
-{{ end }}
+        {{ partial "init-js" . }}
+        {{ partial "footer" . }}
+    </body>
+</html>

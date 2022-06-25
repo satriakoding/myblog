@@ -1,3 +1,9 @@
+.border-gradient {
+  border-style: solid;
+  border-width: 10px;
+  border-image: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1;
+}
+
 body {
   background: #f4f4f4;
   color: #2C3333;
@@ -7,6 +13,14 @@ body {
   line-height: 1.4;
   text-align: justify;
 }
+.card-singlepost {
+  background: #fff;
+  border: 2px solid #353935;
+  border-radius : 5px;
+  box-sizing: border-box;
+  box-shadow: 7px 7px grey;
+}
+
 .card-post {
   background: #fff;
   padding: 10px 16px;
@@ -20,6 +34,7 @@ body {
   font-family: 'SourceSansPro', Quicksand, sans-serif;
   font-weight: 500;
   font-size: 16px;
+  color: #02CBBE;
 }
 .card-link {
   color: #09A4A8;
@@ -55,7 +70,7 @@ article {
 
 // Hover full color
 a:link {
-   color: black;
+   color: #02CBBE;
    text-decoration: none;
    background-position-y: -0%;
    background-image: linear-gradient(white 50%, gold 50%);
@@ -66,13 +81,14 @@ a:link {
 
 a:hover {
    background-position-y: 100%;
+   color: orange;
 }
 
 abbr { 
   display: inline;
   color: #23384e;
 } 
-
+/* <-- FOOTER STYLE --> */
 footer {
    background: #23384E;
    font-size: 11px;
@@ -84,7 +100,7 @@ footer > a {
 footer > a:hover {
    color: orange;
 }
-
+/* <-- COLOR HIGHLIGHT --> */
 .highlight >  pre {
    padding: 5px 20px 5px 20px;
    border-radius: 5px;
@@ -122,12 +138,12 @@ nav.navbar {
 }
 
 .navbar-brand {
-  font-family: 'UrbanJungle', BrightnessInverted, Sacramento, cursive;  letter-spacing: 2.5px;
+  font-family: 'UrbanJungle', BrightnessInverted, Sacramento, cursive;  letter-spacing: 2px;
   font-size: 20px;
   font-weight: normal;
 }
 .navbar-brand:hover {
-  font-family: 'BrightnessInverted', BrightnessBook, Sacramento, cursive;
+  font-family: 'Sacramento', BrightnessInverted, BrightnessBook, cursive;
   color: #02CBBE;
 }
 .navbar-brand > span {
@@ -138,10 +154,13 @@ nav.navbar {
 
 .nav-link {
   font-family: 'Quicksand', sans-serif;
-  text-indent: 2px;
+  text-indent: 3px;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 12px;
   color: #0FCCCE;
+  text-transform: uppercase;
+  word-spacing: 4px;
+  line-height: 0.6;
 }
 .nav-link:hover {
   font-family: 'Quicksand', sans-serif;

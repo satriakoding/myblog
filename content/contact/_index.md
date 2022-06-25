@@ -1,10 +1,10 @@
 ---
-title: "Contact"
+title: "About"
 date: 2022-02-01T16:34:26Z
 draft: false
 ---
 
-**Ini halaman contact**
+**Ini halaman about**
 
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm
 

@@ -21,6 +21,7 @@
 }
 
 .bi-arrow-right-circle::before { content: "\f134"; }
+.bi-arrow-right::before { content: "\F138"; }
 .bi-chat-square-quote::before { content: "\f262"; }
 .bi-emoji-heart-eyes::before { content: "\f31f"; }
 .bi-globe::before { content: "\f3ee"; }
@@ -35,3 +36,4 @@
 .bi-sun::before { content: "\f5a2"; }
 .bi-calendar-plus::before { content: "\f1ef"; }
 .bi-calendar-check::before { content: "\f1e2"; }
+.bi-envelope-check::before { content: "\f68c"; }

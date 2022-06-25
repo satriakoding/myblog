@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+<div class="container mb-2 px-0">
+<div class="card-post fade-in">
+  <h5 class="text-center">Tentang Saya</h5>
+
+<!------- Profil Author Begin -------->
+<div class="post-author">
+  <div class="row pt-3 align-items-center">
+    <div class="col-4">
+      <img src="/avatar/developer.gif" alt="author" class="rounded" style="width: 120px; height: 120px">
+    </div>
+    <div class="col-8 ps-4">
+      <h5 style="font-family: Misa; background: transparent">{{ .Site.Params.author }}</h5>
+    <p>{{ .Site.Params.description }}</p>
+    </div>
+  </div>
+</div>
+<!------- Profil Author End -------->
+</div>
+</div>
+
+{{ end }}

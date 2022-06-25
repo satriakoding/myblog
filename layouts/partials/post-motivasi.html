@@ -1,9 +1,9 @@
-<div class="container-fluid bg-light p-3 text-center fade-in">
- <h2 class="fw-bold">Kumpulan Motivasi Penyemangat Hari</h2>
- <p>"Ujian hidup akan terus berjalan, jadi hadapi dan nikmati"</p>
+<div class="container-fluid p-3 text-center fade-in">
+ <h2 class="font-title pt-2">Kumpulan Motivasi Penyemangat Hari</h2>
+ <p>(Ujian hidup akan terus berjalan, mari hadapi dan nikmati)</p>
 </div>
 
-<div class="container-fluid fade-in">
+<div class="container-fluid">
    <div class="row mx-3">
 
         {{ range .Paginator.Pages }}
@@ -14,7 +14,7 @@
                 <div class="card-body">
                  <div class="inside-out"> <a href="{{ .Permalink }}" class="font-title">{{ .Title }}</a></div>
                   <p class="card-text left-right pt-2">{{ or .Description .Summary }}<br>
-		  <a href="{{ .Permalink }}" class="pt-2 text-muted">Read more . . . <i class="bi bi-arrow-right"></i></a>
+		  <a href="{{ .Permalink }}" class="pt-2 text-muted">Read more <i class="bi bi-arrow-right"></i></a>
                   </p>
                 </div>
 
