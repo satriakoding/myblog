@@ -1,24 +1,22 @@
-.border-gradient {
-  border-style: solid;
-  border-width: 10px;
-  border-image: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1;
-}
-
 body {
   background: #f4f4f4;
   color: #2C3333;
   font-family: 'SourceSansPro', sans-serif;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.4;
   text-align: justify;
 }
-.card-singlepost {
+.about {
+  text-align: justify;
+}
+.artikel {
+  text-align: justify;
   background: #fff;
   border: 2px solid #353935;
   border-radius : 5px;
   box-sizing: border-box;
-  box-shadow: 7px 7px grey;
+  box-shadow: 6px 6px grey;
 }
 
 .card-post {
@@ -39,9 +37,7 @@ body {
 .card-link {
   color: #09A4A8;
 }
-article {
-  text-align: justify;
-}
+
 .card-title {
    font-family: 'OriginTech', Quicksand, sans-serif;
    font-weight: 500;
@@ -95,7 +91,8 @@ footer {
    text-align: center;
 }
 footer > a {
-   color: #02CBBE;
+/*   color: #02CBBE;   */
+   color: #00C6BE;
 }
 footer > a:hover {
    color: orange;
@@ -131,25 +128,28 @@ mark {
 
 /* <--- NAVBAR BEGIN ---> */
 nav.navbar {
-  background: #23384E;
+/*background: #23384E;
   color: #0FCCCE;
-  padding: 2px 0px;
-  border-bottom: 2px solid #02CBBE;
+*/
+  color: #00C6BE;
+  padding: 4px 1px;
+/*  border-bottom: 2px solid #02CBBE;*/
 }
-
 .navbar-brand {
-  font-family: 'UrbanJungle', BrightnessInverted, Sacramento, cursive;  letter-spacing: 2px;
+  font-family: 'Sacramento', UrbanJungle, cursive;
+  letter-spacing: 1.5px;
   font-size: 20px;
-  font-weight: normal;
+  font-weight: 500;
 }
 .navbar-brand:hover {
-  font-family: 'Sacramento', BrightnessInverted, BrightnessBook, cursive;
-  color: #02CBBE;
+  font-family: 'BrightnessInverted', BrightnessBook, cursive;
 }
 .navbar-brand > span {
-  background: -webkit-linear-gradient(#fff, #02CBBE);
+/*  background: -webkit-linear-gradient(#00C6BE, #02CBBE);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+*/
+   color: #00C6BE;
 }
 
 .nav-link {
@@ -158,14 +158,15 @@ nav.navbar {
   font-weight: 600;
   font-size: 12px;
   color: #0FCCCE;
-  text-transform: uppercase;
+  text-transform: capitalize;
   word-spacing: 4px;
   line-height: 0.6;
+  border-bottom: 1px dotted grey;
 }
 .nav-link:hover {
   font-family: 'Quicksand', sans-serif;
   font-weight: 600;
-  color: #fff;
+  color: orange;
 }
 
 .nav-link:visited, .nav-link:active {
@@ -218,7 +219,7 @@ nav.navbar {
 /* Color of 3 lines */
 
 .navbar-toggler.collapsed .toggler-icon {
-    background: linear-gradient( 263deg, #0FCCCE, #fff);
+    background: linear-gradient( 263deg, #0FCCCE, #00C6BE);
 }
 
 /* when navigation is clicked */

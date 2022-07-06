@@ -1,20 +1,29 @@
-html {
-    background-color: #D9D7F1 !important;
-}
-html {
-    filter: invert(100%) hue-rotate(180deg) brightness(105%) contrast(85%);
-    -webkit-filter: invert(100%) hue-rotate(180deg) brightness(105%) contrast(85%);
-}
 body, code, pre {
-    background-color: #d9d7f1 !important;
+   background-color: #1E293B;
+   color: #f4f4f4;
 }
 
 nav.navbar {
-    background-color: #23384E !important;
+   background-color: #23384E !important;
 }
-img,
-video,
-body * [style*="background-image"] {
-    filter: hue-rotate(180deg) contrast(100%) invert(100%);
-    -webkit-filter: hue-rotate(180deg) contrast(100%) invert(100%);
+
+.card-post, .post-list, .artikel,
+.bg-darkmode {
+   background: #334155 !important;
+   color: #f4f4f4 !important;
+}
+
+h1, h2, h3, h4, h5, h6, p,
+.font-link > a,
+small > a,
+div.card-body {
+   color: #f4f4f4 !important;
+}
+
+.font-link > a:hover {
+   color: #0FCCCE !important;
+}
+
+img {
+filter: opacity(75%);
 }

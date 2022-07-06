@@ -1,18 +1,9 @@
 <div class="container p-3">
-<div class="fade-in artikel">
-  <div class="p-2">
-
-  <div id="author" class="d-flex">
-    <div class="flex-shrink-0">
-     <img src="/avatar/anonymus.png" alt="surur" style="width: 34px">
-    </div>
-    <div class="flex-grow-1 ms-2 lh-1">
-    {{.Site.Params.author}}<br>
-    <small class="text-muted">{{.Lastmod.Format "Mon, 02 Jan 2006 - 15:04 MST"}}</small>
-    </div>
-  </div>
+<div class="fade-in card-singlepost">
+  <div class="p-3">
+  <img src="/avatar/anonymus.png" alt="jejak" class="float-start" style="width: 36px; height:36px;">
+  <div class="ps-3 fw-semibold align-middle lh-1">{{ .Site.Params.author }}<br> <span class="opacity-75 py-0 ps-2 text-sm">{{ .Lastmod.Format "January 02, 2006" }}</span></div>
   <hr>
-
   <h5 class="fw-semibold">{{ .Title }}</h5>
   <ul>
     {{ range .Pages }}
@@ -50,4 +41,27 @@
 <!------- Profil Author End -------->
 </div>
 </div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledb
+y="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Profile</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal
+" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <p><a href="/about"><i class="bi bi-person-circle"></i> Abou
+t</a></p>
+          <p><a href="/contact"><i class="bi bi-envelope-check"></i> C
+ontact</a></p>
+          <p><a href="/privacy"><i class="bi bi-shield-check"></i> Pri
+vacy</a></p>
+        </ul>
+      </div>
+    </div>
+  </div>
 </div>
+</div><!-- END MODAL --></div>
+p

@@ -1,5 +1,5 @@
 ---
-title: "Cara Upgrade Hugo"
+title: "Cara Mudah Upgrade Hugo"
 date: 2022-06-20T14:24:35Z
 draft: false
 categories: 
@@ -27,3 +27,4 @@ Dalam beberapa kasus versi hugo di website officialnya tidak sinkron dengan vers
 ### Cara Upgrade Hugo
 * Pilih versi hugo yang ingin di install
 * Copy link versi hugo yang ber-ekstensi .deb
+* install
