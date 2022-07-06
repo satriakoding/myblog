@@ -3,7 +3,7 @@ body, code, pre {
    color: #f4f4f4;
 }
 
-nav.navbar {
+nav.navbar, footer {
    background-color: #23384E !important;
 }
 
@@ -13,11 +13,19 @@ nav.navbar {
    color: #f4f4f4 !important;
 }
 
+/* color light */
 h1, h2, h3, h4, h5, h6, p,
+.font-post >a,
 .font-link > a,
 small > a,
 div.card-body {
    color: #f4f4f4 !important;
+}
+
+/* color cyan */
+a.font-title,
+p.cyan > a {
+   color: #00B6BA;
 }
 
 .font-link > a:hover {

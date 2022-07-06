@@ -1,7 +1,7 @@
-var toggle = document.getElementById("dark-mode-toggle");
-var darkTheme = document.getElementById("dark-mode-theme");
+let toggle = document.getElementById("dark-mode-toggle");
+let darkTheme = document.getElementById("dark-mode-theme");
 // the default theme is light
-var savedTheme = localStorage.getItem("dark-mode-storage") || "dark";setTheme(savedTheme);
+let savedTheme = localStorage.getItem("dark-mode-storage") || "dark";setTheme(savedTheme);
 
 toggle.addEventListener("click", () => {
     if (toggle.className === "bi bi-sun") {

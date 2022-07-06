@@ -13,10 +13,10 @@ body {
 .artikel {
   text-align: justify;
   background: #fff;
-  border: 2px solid #353935;
-  border-radius : 5px;
+  border: 2px solid #00B6BA;
+  border-radius : 6px;
   box-sizing: border-box;
-  box-shadow: 6px 6px grey;
+  box-shadow: 7px 7px #cdfeff;
 }
 
 .card-post {
@@ -86,16 +86,16 @@ abbr {
 } 
 /* <-- FOOTER STYLE --> */
 footer {
-   background: #23384E;
+   background: #fff;
+   color: #00B6BA;
    font-size: 11px;
    text-align: center;
 }
 footer > a {
-/*   color: #02CBBE;   */
-   color: #00C6BE;
+   color: orange;
 }
 footer > a:hover {
-   color: orange;
+   color: green;
 }
 /* <-- COLOR HIGHLIGHT --> */
 .highlight >  pre {
@@ -128,21 +128,17 @@ mark {
 
 /* <--- NAVBAR BEGIN ---> */
 nav.navbar {
-/*background: #23384E;
-  color: #0FCCCE;
-*/
   color: #00B6BA;
   padding: 4px 1px;
-/*  border-bottom: 2px solid #02CBBE;*/
 }
 .navbar-brand {
-  font-family: 'Sacramento', UrbanJungle, cursive;
-  letter-spacing: 1.5px;
+  font-family: 'Rochester', UrbanJungle, cursive;
+  letter-spacing: 1.3px;
   font-size: 20px;
   font-weight: 500;
 }
 .navbar-brand:hover {
-  font-family: 'BrightnessInverted', BrightnessBook, cursive;
+  font-family: 'BrightnessInverted', cursive;
 }
 .navbar-brand > span {
 /*  background: -webkit-linear-gradient(#00C6BE, #02CBBE);
@@ -161,7 +157,7 @@ nav.navbar {
   text-transform: capitalize;
   word-spacing: 4px;
   line-height: 0.6;
-  border-bottom: 1px dotted grey;
+  border-bottom: 1px dotted lightgrey;
 }
 .nav-link:hover {
   font-family: 'Quicksand', sans-serif;

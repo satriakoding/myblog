@@ -1,5 +1,10 @@
 /* FONT FACE */
 @font-face {
+  font-family: Rochester;
+  src: url(/fonts/Rochester.otf);
+  font-display: swap;
+}
+@font-face {
   font-family: Aksara;
   src: url(/fonts/Aksara.ttf);
   font-display: swap;
