@@ -138,7 +138,7 @@ nav.navbar {
   font-weight: 500;
 }
 .navbar-brand:hover {
-  font-family: 'BrightnessInverted', cursive;
+  font-family: 'Garlic', cursive;
 }
 .navbar-brand > span {
 /*  background: -webkit-linear-gradient(#00C6BE, #02CBBE);
@@ -156,7 +156,7 @@ nav.navbar {
   color: #0FCCCE;
   text-transform: capitalize;
   word-spacing: 4px;
-  line-height: 0.6;
+  line-height: 0.7;
   border-bottom: 1px dotted lightgrey;
 }
 .nav-link:hover {
