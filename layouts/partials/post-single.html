@@ -9,7 +9,7 @@
     </div>
     <div class="flex-grow-1 ms-2 lh-1">
     {{.Site.Params.author}}<br>
-    <small class="text-muted">{{.Lastmod.Format "Monday, January 02, 2006"}}</small>
+    <small class="text-muted"> {{ .Lastmod | time.Format ":date_full" }}</small>
     </div>
   </div>
   <hr>
@@ -35,8 +35,12 @@
       </article>
       <hr>
 
-      <small><i class="bi bi-calendar-check"></i> &nbsp; Publish on : {{.Date.Format "January 02, 2006 | 15:04"}}<br>
-      <i class="bi bi-calendar-plus"></i> &nbsp; Last Modified : {{.Lastmod.Format "January 02, 2006 | 15:04"}}
+      <small><i class="bi bi-calendar-check"></i> &nbsp;
+      Publikasi : {{ dateFormat "Monday, 02 January 2006 | 15:04 WIB" .Date.Local}}<br>
+      <i class="bi bi-calendar-plus"></i> &nbsp; 
+      Perbaharui : {{ dateFormat "Monday, 02 January 2006 | 15:04 WIB" .Lastmod.Local}}<br>
+      <i class="bi bi-calendar-plus"></i> &nbsp; 
+      Last Modified : {{ .Lastmod | time.Format "Monday, 02 January 2006 | 15:04" }}
       </small>
 
   </div>

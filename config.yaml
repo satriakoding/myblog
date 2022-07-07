@@ -3,10 +3,14 @@ params:
   author: Miftahus Surur
   description: Di sosial media, kita bisa menjadi siapa saja
   tagline: My Personal Blog
-languageCode: id-ID
 title: Miftahus Surur
 summaryLength: 10
 paginate: 4
+
+# setting default language
+languageCode: id-ID
+defaultContentLanguage: id
+defaultContentLang: id
 
 # this isrequired so that Hugo will render markdown to HTML
 markup:
@@ -24,7 +28,7 @@ taxonomies:
   tag: tags
 
 # for automation get date
-enableGitInfo : true
+enableGitInfo: true
 
 frontmatter:
   lastmod:

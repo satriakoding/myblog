@@ -39,3 +39,5 @@ Dalam beberapa kasus versi hugo di website officialnya tidak sinkron dengan vers
   ```bash
    hugo version
   ```
+### Kesimpulan
+
