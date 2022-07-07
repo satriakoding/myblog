@@ -1,5 +1,6 @@
-<div class="container-fluid p-0 bg-light fade-in post-list">
-<img src="/img/coder3.jpg" class="img-fluid" style="width: 100%; height: 180px;">
+<div class="container-fluid p-3 text-center fade-in">
+ <h2 class="font-title pt-2">Artikel</h2>
+ <p>Sekumpulan catatan pribadi</p>
 </div>
 
 <div class="container-fluid fade-in">
@@ -19,5 +20,17 @@
           </div>
         </div>
         {{ end }}
-      </div>
+   </div>
+   <div class="row mx-auto">
+
+     {{ if .Paginator.HasPrev }}
+       <a href="{{ .Paginator.Prev.URL }}">  Prev </a>
+     {{ end }}
+     {{ if .Paginator.HasNext }}
+       <a href="{{ .Paginator.Next.URL }}">  Next </a>
+     {{ end }}
+
+   </div>
+
 </div>
+

@@ -6,7 +6,7 @@ params:
 languageCode: id-ID
 title: Miftahus Surur
 summaryLength: 10
-paginate: 5
+paginate: 4
 
 # this isrequired so that Hugo will render markdown to HTML
 markup:

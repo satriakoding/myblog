@@ -26,6 +26,7 @@
 .bi-emoji-heart-eyes::before { content: "\f31f"; }
 .bi-globe::before { content: "\f3ee"; }
 .bi-person-circle::before { content: "\f4d7"; }
+.bi-person::before { content: "\F4E1"; }
 .bi-shield-check::before { content: "\f52f"; }
 .bi-calendar2-heart::before { content: "\f712"; }
 .bi-house-heart-fill::before { content: "\f775"; }
