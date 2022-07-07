@@ -10,6 +10,21 @@ body {
 .about {
   text-align: justify;
 }
+.btn-contact {
+  background: #00B6BA;
+  color: #fff;
+  border-radius: 15px 45px;
+  box-sizing: border-box;;
+  box-shadow: 7px 7px #cdfeff;
+  padding: 10px;
+  text-align: center;
+  font-weight: 600;
+}
+.btn-contact:hover {
+  background: orange;
+  color: #fff;
+  box-shadow: 7px 7px #ffdc9d;
+}
 .artikel {
   text-align: justify;
   background: #fff;
@@ -152,26 +167,37 @@ nav.navbar {
   font-family: 'Quicksand', sans-serif;
   text-indent: 3px;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 14px;
   color: #0FCCCE;
   text-transform: capitalize;
   word-spacing: 4px;
-  line-height: 0.7;
-  border-bottom: 1px dotted lightgrey;
+  line-height: 1.3;
+  border-top: 1px dotted lightgrey;
 }
-.nav-link:hover {
+.nav-link:hover,
+.nav-link:active {
   font-family: 'Quicksand', sans-serif;
   font-weight: 600;
   color: orange;
-}
 
-.nav-link:visited, .nav-link:active {
+}
+.dropdown-menu {
+  margin-bottom: 8px;
+}
+.dropdown-item {
   font-family: 'Quicksand', sans-serif;
-  text-indent: 6px;
+  color: #0078ba;
+  font-size: 14px;
   font-weight: 600;
-  color: #yellow;
+  text-transform: capitalize;
+  word-spacing: 4px;
+  line-height: 1;
+  text-indent: 5px;
 }
-
+.dropdown-item:hover {
+  color: #0097ba;
+  background: #fff;
+}
 .navbar-toggler {
     width: 20px;
     height: 20px;

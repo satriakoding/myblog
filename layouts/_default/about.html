@@ -1,19 +1,22 @@
 {{ define "main" }}
 <div class="container p-3">
 
-<div class="card text-center artikel fade-in px-0 py-3">
-  <img src="/avatar/surur.jpg" class="card-img-top rounded-circle border border-2 border-light mx-auto" alt="surur" style="width: 130px; height: auto;">
-  <div class="card-body px-2 py-3">
-    <h2 class="font-title text-Capitalize" style="font-family: 'Misa', Sacramento, Cursive ;">{{.Site.Params.author}}</h2>
-    <p class="card-text">"{{.Site.Params.description}}"</p><hr>
+<div class="card text-center artikel fade-in py-4">
+  <img src="/avatar/surur.jpg" class="card-img-top rounded-circle mx-auto p-1" alt="surur" style="border: 2px solid #00B6BA; width: 84px;">
+  <div class="card-body p-3">
+    <p class="font-title text-Capitalize pb-0 lh-1">{{.Site.Params.author}} <small class="text-sm"><i class="bi bi-patch-check-fill" style="color: #00B6BA;"></i></small></p>
+    <small class="card-text py-0">``{{.Site.Params.description}}``</small><hr>
 
   <div class="about">
    <p>Pepatah bijak mengatakan, tak kenal maka tak sayang. Namun walau kita belum mengenal aku tetep sayang kok, hehe 😁.</p>
    <p>Akan tetapi, tidak ada salahnya kan ya jika kita lebih mengenal. Baiklah perkenalkan nama saya <strong>Miftahus Surur</strong>, di rumah dipanggil Miftah, di sekolah dipanggil Surur.</p>  </div>
 
-    <div class="d-flex justify-content-evenly"><a href="https://wa.me/6281299887212" class="artikel p-2 fw-semibold">WhatsApp</a>
-    <a href="https://t.me/Surur_me" class="artikel p-2 fw-semibold">Telegram</a>
-    <a href="mailto:miftah@surur.id@gmail.com" class="artikel p-2 fw-semibold">Email</a></div>
+<div class="d-grid gap-3">
+  <a href="https://wa.me/6281299887212" class="btn-contact">WhatsApp</a>
+  <a href="https://t.me/Surur_me" class="btn-contact">Telegram</a>
+  <a href="mailto:miftah@surur.id@gmail.com" class="btn-contact">Email</a>
+</div>
+
    </div>
 </div>
 

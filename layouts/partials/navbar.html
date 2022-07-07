@@ -2,10 +2,10 @@
 <div class="container">
 
 <a href="/" class="navbar-brand d-inline-block">
-<img src="/avatar/boy.png" alt="Surur" style="width: 28px;"><span class="align-text-top ps-2">{{ .Site.Params.author }}</span>
+<img src="/avatar/boy.png" class="rounded-circle p-1" alt="Surur" style="width: 40px;"><span class="align-items-start ps-2">{{ .Site.Params.author }}</span>
 </a>
 
-<span class="ms-auto pe-3 align-text-center"><a id="dark-mode-toggle" class="bi bi-sun" style="color: #02CBBE; border: 1.5px solid #0FCCCE; border-radius: 50px; padding:2px 4px; font-size: 13px"></a></span>
+<span class="ms-auto pe-3 align-items-start"><a id="dark-mode-toggle" class="bi bi-sun" style="color: #02CBBE; border: 1.5px solid #0FCCCE; border-radius: 50px; padding:2px 4px; font-size: 13px"></a></span>
 
 <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="toggler-icon top-bar"></span>
@@ -14,22 +14,23 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="/">
-          <i class="bi-house-heart-fill"></i> Home</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-person-circle"></i> Profile</a>
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="/about">
+                <i class="bi bi-person-circle"></i> About</a></li>
+            <li><a class="dropdown-item" href="/contact">
+                <i class="bi bi-envelope-check"></i> Contact</a></li>
+          </ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/about">
-          <i class="bi bi-person-circle"></i> About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/contact">
-          <i class="bi bi-envelope-check"></i> Contact</a>
-        </li>
+
         <li class="nav-item">
           <a class="nav-link" href="/blog">
           <i class="bi bi-globe"></i> Blog</a>
         </li>
+
         <li class="nav-item">
           <a class="nav-link" href="/motivasi">
           <i class="bi bi-chat-square-quote"></i> Motivasi</a>

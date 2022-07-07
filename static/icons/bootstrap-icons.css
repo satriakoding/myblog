@@ -37,3 +37,4 @@
 .bi-calendar-plus::before { content: "\F1EF"; }
 .bi-calendar-check::before { content: "\F1E2"; }
 .bi-envelope-check::before { content: "\f68c"; }
+.bi-patch-check-fill::before { content: "\F4B5"; }
