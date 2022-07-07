@@ -36,9 +36,9 @@
       <hr>
 
       <small><i class="bi bi-calendar-check"></i> &nbsp;
-      Publikasi : {{ dateFormat "Monday, 02 January 2006 / 15:04 WIB" .Date }}<br>
+      <span class="fw-semibold"> Publikasi : </span> {{ time.Format "Monday, 02 January 2006 / 15:04" .Date }}<br>
       <i class="bi bi-calendar-plus"></i> &nbsp; 
-      Perbaharui : {{ dateFormat "Monday, 02 January 2006 / 15:04 WIB" .Lastmod }}
+      <span class="fw-semibold"> Perbaharui : </span> {{ time.Format "Monday, 02 January 2006 / 15:04" .Lastmod }}
       </small>
 
   </div>
