@@ -39,4 +39,4 @@ frontmatter:
 
 enableEmoji: true
 
-disableLiveReload: true
+disableLiveReload: false

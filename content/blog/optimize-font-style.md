@@ -59,4 +59,4 @@ Hasil akhir setiap pengguna mungkin akan berbeda, tapi bagi saya pribadi tips te
 #SalamJejak
 
 **Reference**<br>
-<small class="inside-out"><a href="https://web.dev/avoid-invisible-text" target="_BLANK">https://web.dev/avoid-invisible-text</a></small>
+<small class="inside-out"><a href="https://web.dev/avoid-invisible-text" target="is_BLANK">https://web.dev/avoid-invisible-text</a></small>

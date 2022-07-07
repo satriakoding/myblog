@@ -26,6 +26,7 @@ Dalam beberapa kasus versi hugo di website officialnya tidak sinkron dengan vers
 
 ### Cara Upgrade Hugo
 * Pilih versi hugo yang ingin di install
+  https://github.com/gohugoio/hugo/releases
 * Copy link versi hugo yang ber-ekstensi .deb
 * Buka terminal kemudian download
   ```bash
