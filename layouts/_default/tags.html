@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div class="container p-3">
+
+<div class="card text-center artikel fade-in py-4">
+
+<ul>
+    {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+       <li> <a href="/tags/{{$name}}"> {{$name}} </a></li>
+    {{ end }}
+</ul>
+
+</div>
+
+</div>
+{{ end }}

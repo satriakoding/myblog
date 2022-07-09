@@ -22,6 +22,7 @@
 
 .bi-arrow-right-circle::before { content: "\f134"; }
 .bi-arrow-right::before { content: "\F138"; }
+.bi-arrow-left::before { content: "\F12F"; }
 .bi-chat-square-quote::before { content: "\f262"; }
 .bi-emoji-heart-eyes::before { content: "\f31f"; }
 .bi-globe::before { content: "\f3ee"; }
@@ -39,3 +40,4 @@
 .bi-calendar-check::before { content: "\F1E2"; }
 .bi-envelope-check::before { content: "\f68c"; }
 .bi-patch-check-fill::before { content: "\F4B5"; }
+.bi-dot::before { content: "\F309"; }

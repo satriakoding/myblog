@@ -35,10 +35,79 @@
       </article>
       <hr>
 
+<!-- BEGIN TAGS -->
+    {{ with .Params.tags }}
+      {{ range . }}
+        <div id="tags" class="d-inline p-1 m-1"><i class="bi bi-hash"></i> <a href="/tags/{{ . | urlize }}">{{ . }}</a></div>
+      {{ end }}
+    {{ end }}
+<!-- END TAGS -->
+      <hr>
+<!-- BEGIN Post Date -->
 <small><i class="bi bi-calendar-check"></i> &nbsp; Publish On : {{ time.Format "Monday, 02 January 2006 / 15:04" .Date }}<br>
       <i class="bi bi-calendar-plus"></i> &nbsp; Last Modified : {{ dateFormat "Monday, 02 January 2006 / 15:04" .Lastmod }}
       </small>
   </div>
 </div>
+<!-- BEGIN Post Date -->
+
+<!-- BEGIN  PREV / NEXT POST -->
+<div class="fade-in artikel mt-3 mb-1">
+  <div class="p-3">
+
+    <div class="row justify-content-evenly">
+    <div class="col">
+        {{ with .PrevInSection }}
+          <a class="prev" href="{{.Permalink}}">
+          <i class="bi bi-arrow-left"></i> Post Sebelumnya</a>
+        {{ end }}
+    </div>
+    <div class="col">
+        {{ with .NextInSection }}
+          <a class="next float-end" href="{{.Permalink}}">
+          Post Selanjutnya  <i class="bi bi-arrow-right"></i></a>
+        {{ end }}
+    </div>
+    </div>
+
+  </div>
+</div>
+<!-- END  PREV / NEXT CONTENT -->
+
+<!-- BEGIN  RELATE POST / CONTENT -->
+<div class="fade-in artikel mt-3 mb-1">
+  <div class="p-3">
+
+  {{ $related := .Site.RegularPages.Related . | first 5 }}
+  {{ with $related }}
+    <h5 class="font-title">Lihat Juga</h5>
+    <ul>
+	{{ range . }}
+	<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+	{{ end }}
+    </ul>
+ {{ end }}
+
+  </div>
+</div>
+<!-- END  RELATE POST / CONTENT -->
+
+<!-- BEGIN  RELATE POST / CONTENT  -->
+<aside id="meta">
+    <div>
+
+    {{ with .Params.categories }}
+    <ul id="categories">
+      {{ range . }}
+      <a href="{{ "categories" | absURL}}{{ . | urlize }}"><i class="bi bi-dot"></i> {{ . }}</a> </li>
+      {{ end }}
+    </ul>
+    {{ end }}
+
+    </div>
+
+ 
+</aside>
+<!-- END  RELATE POST / CONTENT -->
 
 </div>

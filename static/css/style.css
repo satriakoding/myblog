@@ -25,6 +25,19 @@ body {
   color: #fff;
   box-shadow: 7px 7px #ffdc9d;
 }
+#tags {
+  color: #00B6BA;
+  border: 1px solid #00B6BA;
+  border-radius : 6px;
+  box-sizing: border-box;
+  box-shadow: 3px 3px #cdfeff;
+}
+#tags:hover {
+  color: orange;
+  border: 1px solid orange;
+  box-sizing: border-box;
+  box-shadow: 3px 3px  #ffdc9d;
+}
 .artikel {
   text-align: justify;
   background: #fff;
@@ -80,20 +93,7 @@ body {
 }
 
 // Hover full color
-a:link {
-   color: #02CBBE;
-   text-decoration: none;
-   background-position-y: -0%;
-   background-image: linear-gradient(white 50%, gold 50%);
-   transition: background 500ms ease;
-   background-size: 2px;
-   background-size: auto 175%;
-}
 
-a:hover {
-   background-position-y: 100%;
-   color: orange;
-}
 
 abbr { 
   display: inline;
